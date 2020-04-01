@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Welcome</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+	<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+	<!-- tabs -->
+	<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#tabcontainer").tabs({
+				event: "click"
+			});
+		});
+	</script>
+	<!-- / tabs -->
+	<script type="text/javascript" src="layout/scripts/jquery-photostack.js"></script>
+	<!-- coinslider -->
+	<script type="text/javascript" src="layout/scripts/jquery-coin-slider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#portfolioslider').coinslider({
+				width: 480,
+				height: 280,
+				navigation: false,
+				links: false,
+				hoverPause: true
+			});
+		});
+	</script>
+	<!-- / coinslider -->
+</head>
+<body id="top">
+	<div class="wrapper col1">
+		<div id="header" class="clear">
+			<div class="fl_left">
+				<h1><a href="HTMLpage1.html">Shakeb</a></h1>
+				<p>Hey! I'm a student</p>
+			</div>
+			<div class="fl_right"><a href="#"><img src="images/demo/468x60_1.jpg" alt="" /></a></div>
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col1">
+		<div id="topbar" class="clear">
+			<ul id="topnav">
+				<li class="active"><a href="HTMLpage1.html">Home</a></li>
+				<li><a href="pages/projects.html">Projects</a></li>
+				<li>Social</a></li>
+				<li>Volunteering</a></li>
+				<li class="last"><a href="pages/gallery.html">Gallery</a></li>
+			</ul>
+			<form action="#" method="post" id="search">
+				<fieldset>
+					<legend>Site Search</legend>
+					<input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+					<input type="image" id="go" src="layout/images/search.gif" alt="Search" />
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col1">
+		<div id="featured_slide">
+			<!-- ####################################################################################################### -->
+			<div id="slider">
+				<ul id="categories">
+					<li class="category">
+						<h2>My World!</h2>
+						<a href="#"><img src="images/demo/150x110_1.jpg" alt="" /></a>
+						<p>Hey! This is Shakeb, a 2nd year Engineering student at Muffakham Jah college of Engineering and Technology. Have a look at My World. Hope you find it inteesting.</p>
+						<p class="readmore"><a href="#">Read More &raquo;</a></p>
+					</li>
+				</ul>
+				<a class="prev disabled"></a> <a class="next disabled"></a>
+				<div style="clear:both"></div>
+			</div>
+			<!-- ####################################################################################################### -->
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper col2">
+		<div id="container" class="clear">
+			<!-- ####################################################################################################### -->
+			<div id="tabcontainer">
+				<ul id="tabnav">
+					<li><a href="#tabs-1">About Me</a></li>
+					<li><a href="#tabs-2">Projects</a></li>
+					<li><a href="#tabs-3">Contact</a></li>
+					<li><a href="#tabs-4">Suggestions</a></li>
+				</ul>
+				<div id="tabs-1" class="tabcontainer">
+					<div id="hpage_services" class="clear">
+						<div class="block">
+							<img src="images/demo/46x46_1.jpg" alt="" /><strong>Mohammed Shakeb Uddin</strong>
+							<p>Info.....</p>
+						</div>
+					</div>
+				</div>
+				<!-- ########### -->
+				<div id="tabs-2" class="tabcontainer">
+					<h2 class="title">Have a look at my projects.</h2>
+					<ul class="line clear">
+						<li>
+							<div class="imgholder"><a href="#"><img src="images/demo/280x160_1.jpg" alt="" /></a></div>
+							<p class="name">Project 1</p>
+							<p class="readmore"><a href="#">View This Project &raquo;</a></p>
+						</li>
+					</ul>
+				</div>
+				<!-- ########### -->
+				<div id="tabs-3" class="tabcontainer">
+					<div id="hpage_portfolio" class="clear">
+						<div class="fl_left">
+							<div id="portfolioslider">
+								<ul>
+									<li><img src="images/demo/portfolioslider/1_1.jpg" alt="" /></li>
+								</ul>
+							</div>
+						</div>
+						<div class="fl_right">
+							<h2>Reach Us</h2>
+							<p>You can fill the form and we will reach you as earliest possible.</p>
+							<ul>
+								<li>To know more about projjects.</li>
+								<li>Guidance for internships.</li>
+							</ul>
+							<p class="readmore"><a href="#">Fill the form. &raquo;</a></p>
+						</div>
+					</div>
+				</div>
+				<!-- ########### -->
+				<div id="tabs-4" class="tabcontainer">
+					<h2>Leave your suggestions here.</h2>
+				</div>
+				<!-- ########### -->
+					<div class="clear"></div>
+				</div>
+				<!-- ########### -->
+			</div>
+			<!-- ####################################################################################################### -->
+		</div>
+	</div>
+	<!-- ####################################################################################################### -->
+	<div class="wrapper">
+		<div id="footer" class="clear">
+			<div class="footbox">
+				<h2>About Mee</h2>
+				<p>I'm a second year Information Technology student at Muffakkham Jah College of Engineering and Technology,Hyderabad.</p>
+				<p>This website will give you an overview of my journey.</p>
+			</div>
+			<div class="footbox">
+				<h2>Tech Known</h2>
+				<ul>
+					<li><a href="#">tech 1</a></li>
+					<li><a href="#">tech 2</a></li>
+					<li><a href="#">tech 3</a></li>
+					<li><a href="#">tech 4</a></li>
+				</ul>
+			</div>
+			<div class="footbox">
+				<h2>Blogs</h2>
+				<ul>
+					<li><a href="#">Demo Blog</a></li>
+				</ul>
+			</div>
+			<div class="footbox last">
+				<h2>Keep in Touch</h2>
+				<ul>
+					<li><a href="#">Check out my Facebook page</a></li>
+					<li><a href="#">Get the latest Tweets</a></li>
+					<li><a href="#">View my LinkedIn profile</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

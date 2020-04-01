@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gallery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
+    <script type="text/javascript" src="../layout/scripts/jquery.min.js"></script>
+    <!-- tabs -->
+    <script type="text/javascript" src="../layout/scripts/jquery.ui.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#tabcontainer").tabs({
+                event: "click"
+            });
+        });
+    </script>
+    <!-- / tabs -->
+    <!-- prettyPhoto -->
+    <link rel="stylesheet" href="../layout/scripts/prettyphoto/prettyPhoto.css" type="text/css" />
+    <script type="text/javascript" src="../layout/scripts/prettyphoto/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                theme: 'dark_rounded',
+                overlay_gallery: false,
+                social_tools: false
+            });
+        });
+    </script>
+    <!-- / prettyPhoto -->
+</head>
+<body id="top">
+    <div class="wrapper col1">
+        <div id="header" class="clear">
+            <div class="fl_left">
+                <h1><a href="../gallery.html">Gallery</a></h1>
+                <p>My pictures</p>
+            </div>
+            <div class="fl_right"><a href="#"><img src="../images/demo/468x60_1.jpg" alt="" /></a></div>
+        </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="wrapper col1">
+        <div id="topbar" class="clear">
+            <ul id="topnav">
+                <li class="active"><a href="HTMLpage1.html">Home</a></li>
+                <li><a href="pages/projects.html">Projects</a></li>
+                <li>Social</a></li>
+                <li>Volunteering</a></li>
+                <li class="last"><a href="pages/gallery.html">Gallery</a></li>
+            </ul>
+            <form action="#" method="post" id="search">
+                <fieldset>
+                    <legend>Site Search</legend>
+                    <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+                    <input type="image" id="go" src="layout/images/search.gif" alt="Search" />
+                </fieldset>
+            </form>
+        </div>
+    </div><!-- ####################################################################################################### -->
+    <div class="wrapper col2">
+        <div id="container" class="clear">
+            <!-- ####################################################################################################### -->
+            <!-- ########### -->
+            <div id="tabs-1" class="gallery clear">
+                <ul>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery1]" title="Image 1"><img src="../images/demo/gallery/1.gif" alt="Title Text" /></a></li>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery1]" title="Image 2"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery1]" title="Image 3"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                    <li class="last"><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery1]" title="Image 12"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                </ul>
+            </div>
+            <!-- ########### -->
+            <div id="tabs-2" class="gallery clear">
+                <ul>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery2]" title="Image 1"><img src="../images/demo/gallery/2.gif" alt="Title Text" /></a></li>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery2]" title="Image 2"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                    <li class="last"><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery2]" title="Image 12"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                </ul>
+            </div>
+            <!-- ########### -->
+            <div id="tabs-3" class="gallery clear">
+                <ul>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery3]" title="Image 1"><img src="../images/demo/gallery/3.gif" alt="Title Text" /></a></li>
+                    <li><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery3]" title="Image 2"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                    <li class="last"><a href="../images/demo/portfolioslider/1.gif" rel="prettyPhoto[gallery3]" title="Image 12"><img src="../images/demo/gallery/150x150.gif" alt="Title Text" /></a></li>
+                </ul>
+            </div>
+            <!-- ########### -->
+            <!-- ########### -->
+        </div>
+        <!-- ####################################################################################################### -->
+        <!-- ####################################################################################################### -->
+    </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="wrapper">
+        <div id="footer" class="clear">
+            <div class="footbox">
+                <h2>About Mee</h2>
+                <p>I'm a second year Information Technology student at Muffakkham Jah College of Engineering and Technology,Hyderabad.</p>
+                <p>This website will give you an overview of my journey.</p>
+            </div>
+            <div class="footbox">
+                <h2>Tech Known</h2>
+                <ul>
+                    <li><a href="#">tech 1</a></li>
+                    <li><a href="#">tech 2</a></li>
+                    <li><a href="#">tech 3</a></li>
+                    <li><a href="#">tech 4</a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <h2>Blogs</h2>
+                <ul>
+                    <li><a href="#">Demo Blog</a></li>
+                </ul>
+            </div>
+            <div class="footbox last">
+                <h2>Keep in Touch</h2>
+                <ul>
+                    <li><a href="#">Check out my Facebook page</a></li>
+                    <li><a href="#">Get the latest Tweets</a></li>
+                    <li><a href="#">View my LinkedIn profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
